@@ -1,47 +1,61 @@
-![Netlify examples](netlify-badge-examples.png)
+# 🚀 Getting started with Strapi
 
-# Netlify Feature Tour
+Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
-**Access this demo site**: https://feature-tour.netlify.app
+### `develop`
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fad6792e-1c44-44db-bd79-ea74b42b0f89/deploy-status)](https://app.netlify.com/sites/feature-tour/deploys)
-
-## About this example site
-
-This site provides a path to get started learning about Netlify features.
-
-- 📚 [Docs Getting Started Tutorial](https://docs.netlify.com/get-started/?utm_medium=social&utm_source=github&utm_campaign=devex-ph&utm_content=devex-examples)
-
-## Speedily deploy your own version
-
-Deploy your own version of this example site by selecting the Deploy to Netlify Button below. This will automatically:
-
-- Clone a copy of this repo to your own GitHub account
-- Create a new project in your [Netlify account](https://app.netlify.com/?utm_medium=social&utm_source=github&utm_campaign=devex&utm_content=devex-examples), linked to your new repo
-- Create an automated deployment pipeline to watch for changes on your repo
-- Build and deploy your new site
-
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-feature-tour&utm_medium=social&utm_source=github&utm_campaign=devex&utm_content=devex-examples)
-
-## Install and run this example locally
-
-You can clone this example repo to explore its features and implementation and to run it locally.
-
-```shell
-
-# 1. Clone the repository to your local development environment
-git clone git@github.com:netlify/feature-tour.git
-
-# 2. Move into the project directory
-cd feature-tour
-
-# 3. Install code dependencies
-npm install
-
-# 4. Install the Netlify CLI to let you locally serve your site using Netlify's features
-npm install -g netlify-cli
-
-# 5. Serve your site using Netlify Dev
-netlify dev
+Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 
 ```
+npm run develop
+# or
+yarn develop
+```
+
+### `start`
+
+Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+
+```
+npm run start
+# or
+yarn start
+```
+
+### `build`
+
+Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+
+```
+npm run build
+# or
+yarn build
+```
+
+## ⚙️ Deployment
+
+Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+
+```
+yarn strapi deploy
+```
+
+## 📚 Learn more
+
+- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
+- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
+- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
+- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
+- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+
+Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+
+## ✨ Community
+
+- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
+- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
+- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+
+---
+
+<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
